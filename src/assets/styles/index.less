@@ -1,0 +1,127 @@
+// @bili-blue: #00ACE9;
+@bili-blue: #00AEEC;
+
+@border-color: 1px solid #f1f2f3;
+
+@text1: #18191c;
+
+@text2: #212121;
+
+@gray1: #e3e5e7;
+
+@gray2: #9499a0;
+
+@gray3: #61666d;
+
+@font-face {
+    font-family: 'iconfont';
+    src        : url('../font/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+    font-family            : "iconfont" !important;
+    font-size              : 16px;
+    font-style             : normal;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.border-button {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    border-radius   : 8px;
+    border          : 1px solid @gray1;
+    background-color: #fff;
+    font-size       : 12px;
+    transition      : all .2s;
+    cursor          : pointer;
+
+    &:hover {
+        background-color: #ebebeb;
+    }
+}
+
+.link {
+    transition: color .3s !important;
+
+    &:hover {
+        color: @bili-blue  !important;
+    }
+}
+
+.inco-info {
+    display       : inline-block;
+    line-height   : 16px;
+    vertical-align: middle;
+    color         : inherit;
+}
+
+.info-small {
+    font-size  : 13px !important;
+    font-weight: 400 !important;
+    color      : #9499a0;
+}
+
+.area-header__botton {
+    height     : auto;
+    padding    : 8px 12px;
+    line-height: 16px;
+    font-size  : 13px;
+    margin-left: 8px;
+
+    .roll-icon {
+        font-size   : 14px;
+        margin-right: 3px;
+        transition  : transform 0.5s;
+    }
+
+    .arrow-icon {
+        font-size: 11px;
+    }
+
+    span {
+        line-height: 16px;
+        font-size  : 13px;
+    }
+}
+
+.card__wrap-avatar {
+    display      : inline-block;
+    box-sizing   : border-box;
+    width        : 44px;
+    height       : 38px;
+    padding-top  : 2px;
+    padding-right: 8px;
+
+    .avatar {
+        border-radius: 100%;
+        width        : 36px;
+        height       : 36px;
+    }
+}
+
+.title {
+    color       : @text1;
+    font-size   : 24;
+    margin-right: 10px;
+    transition  : color .3s;
+}
+
+.scroll {
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #c1c1c1;
+        border-radius   : 8px;
+        transition      : all 0.2s;
+
+        &:hover {
+            background-color: #cfcfcf;
+        }
+    }
+}

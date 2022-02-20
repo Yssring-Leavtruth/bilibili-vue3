@@ -1,0 +1,41 @@
+@keyframes hover {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.entry-item {
+    color: var(--bar-color);
+
+    .entry-title {
+        display     : flex;
+        align-items : center;
+        margin-right: 20px;
+        font-size   : 14px;
+
+        svg {
+            margin-right: 6px;
+        }
+    }
+
+    .entry-default {
+        display     : inline-block;
+        height      : 64px;
+        line-height : 64px;
+        margin-right: 20px;
+        font-size   : 14px;
+        color       : var(--bar-color);
+
+        &:hover {
+            animation: hover 0.3s ease-in-out;
+        }
+    }
+}

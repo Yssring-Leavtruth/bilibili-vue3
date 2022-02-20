@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1641299179032') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangshang:before {
+  content: "\f01a3";
+}
+
+.icon-sey-people-d-a:before {
+  content: "\e6a6";
+}
+
+.icon-caidan:before {
+  content: "\e790";
+}
+
+.icon-dingdan:before {
+  content: "\e64e";
+}
+
+.icon-user:before {
+  content: "\e608";
+}
+
+.icon-danmushu:before {
+  content: "\e665";
+}
+
+.icon-qianbao:before {
+  content: "\e6ad";
+}
+
+.icon-shoucang:before {
+  content: "\eca7";
+}
+
+.icon-tuichu:before {
+  content: "\e569";
+}
+
+.icon-video:before {
+  content: "\e612";
+}
+
+.icon-shoucang1:before {
+  content: "\e8b9";
+}
+
+.icon-reload:before {
+  content: "\e602";
+}
+
+.icon-reload1:before {
+  content: "\e711";
+}
+
+.icon-book:before {
+  content: "\e61a";
+}
+
+.icon-people:before {
+  content: "\e65b";
+}
+
+.icon-arrowb:before {
+  content: "\e51a";
+}
+
+.icon-arrowr:before {
+  content: "\e51b";
+}
+
+.icon-arrowt:before {
+  content: "\e51c";
+}
+
+.icon-arrowl:before {
+  content: "\e51d";
+}
+
+.icon-zhibo:before {
+  content: "\e80b";
+}
+
+.icon-caidan1:before {
+  content: "\e601";
+}
+
+.icon-video-file:before {
+  content: "\e7d1";
+}
+
+.icon-like:before {
+  content: "\e67a";
+}
+
+.icon-huobi_currency:before {
+  content: "\e603";
+}
+

@@ -1,0 +1,58 @@
+.rank-list {
+    position: relative;
+    height: 100%;
+
+    .rank-list__grid {
+        display: grid;
+        height: 100%;
+        border: @border-color;
+        border-radius: 6px;
+        background-color: #f6f7f8;
+
+        li:nth-child(odd) {
+            background-color: #fff;
+        }
+    }
+}
+
+.rank-list__item {
+    position: relative;
+    padding: 0 8px;
+
+    .rank-list__item-title {
+        font-size: 14px;
+        color: @text1;
+        font-weight: 500;
+    }
+
+    .rank-list__item-wrap {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+    
+        .rank-list__item-index {
+            margin-right: 6px;
+            width: 20px;
+            font-family: Avenir;
+            font-style: italic;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            color: #c9ccd0;
+
+            &[data-index="1"]{
+                color: #ff473d;
+            }
+
+            &[data-index="2"]{
+                color: #ff6a29;
+            }
+
+            &[data-index="3"]{
+                color: #ff9214;
+            }
+        }
+    }
+}

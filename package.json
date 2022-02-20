@@ -1,0 +1,26 @@
+{
+  "name": "bilibili",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@types/qrcode": "^1.4.1",
+    "@vueuse/core": "^7.0.1",
+    "axios": "^0.24.0",
+    "qrcode": "^1.5.0",
+    "style-resources-loader": "^1.4.1",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "less": "^4.1.2",
+    "style": "^0.0.3",
+    "stylus": "^0.55.0",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
