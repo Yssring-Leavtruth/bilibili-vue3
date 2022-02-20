@@ -9,9 +9,13 @@ var routes_1 = __importDefault(require("./routes"));
 var cookie_parser_1 = __importDefault(require("cookie-parser"));
 var body_parser_1 = __importDefault(require("body-parser"));
 var app = (0, express_1.default)();
+app.all('*', function (req, res, next) {
+    res.setHeader('Content-Security-Policy', 'upgrade-insecure-requests');
+    next();
+});
 app.use((0, cors_1.default)({
     credentials: true,
-    origin: ['http://localhost:3000']
+    origin: ['http://localhost:3000', 'https://yssring-leavtruth.github.io/']
 }));
 app.use((0, cookie_parser_1.default)());
 app.use(body_parser_1.default.json());
