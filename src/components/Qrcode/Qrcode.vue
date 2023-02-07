@@ -42,12 +42,12 @@ const oauthKey = ref('')
 const ts = ref(0)
 
 const vQrcodeDirective: Directive = {
-    beforeMount: (el: HTMLElement, binding) => {
+    beforeMount: (el: HTMLElement, binding, needRuntime: true) => {
         QRCode.toCanvas(el, binding.value, {
             width: 160
         })
     },
-    beforeUpdate: (el: HTMLElement, binding) => {
+    beforeUpdate: (el: HTMLElement, binding, needRuntime: true) => {
         QRCode.toCanvas(el, binding.value, {
             width: 160
         })
