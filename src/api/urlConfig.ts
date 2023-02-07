@@ -1,6 +1,6 @@
 export const host = `${process.env.NODE_ENV === 'development' ? 'http://localhost:9090' : 'http://114.132.224.95:9090'}`
 
-export const recommend = 'https://api.bilibili.com/x/web-interface/wbi/index/top/feed/rcmd?ps=10'
+export const recommend = host + '/recommend'
 
 export const banner = host + '/banner'
 

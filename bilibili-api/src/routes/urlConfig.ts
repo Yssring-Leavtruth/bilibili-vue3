@@ -31,7 +31,7 @@ export const history = {
 export const loginInfoUrl = 'https://passport.bilibili.com/qrcode/getLoginInfo' //body: oauthKey
 
 //推荐
-export const recommendUrl = 'https://api.bilibili.com/x/web-interface/index/top/rcmd'
+export const recommendUrl = 'https://api.bilibili.com/x/web-interface/wbi/index/top/feed/rcmd?ps=10'
 
 //推广
 export const extensionUrl = 'http://api.bilibili.com/x/web-show/res/loc?pf=0&id=34'
